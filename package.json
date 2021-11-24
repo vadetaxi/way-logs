@@ -1,0 +1,55 @@
+{
+  "_args": [
+    [
+      "git+https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs.git",
+      "D:\\Renan\\dev\\vdt\\finance"
+    ]
+  ],
+  "_from": "git+https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs.git",
+  "_id": "way-logs@git+https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs.git#931311c9eb07ed43e361c37a933ff1b7d1a579b7",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/way-logs",
+  "_phantomChildren": {
+    "type-fest": "0.3.1"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs.git",
+    "rawSpec": "git+https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs.git",
+    "saveSpec": "git+https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs.git",
+    "fetchSpec": "https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs.git#931311c9eb07ed43e361c37a933ff1b7d1a579b7",
+  "_spec": "git+https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs.git",
+  "_where": "D:\\Renan\\dev\\vdt\\finance",
+  "author": {
+    "name": "EduardoRFS",
+    "email": "theeduardorfs@gmail.com"
+  },
+  "dependencies": {
+    "@types/ramda": "^0.26.9",
+    "fast-safe-stringify": "^2.0.6",
+    "ramda": "^0.26.1",
+    "serialize-error": "^4.1.0",
+    "winston": "^3.2.1",
+    "winston-cloudwatch": "^2.0.5"
+  },
+  "description": "```sh\r npm install -S git+https://dev-vdt:senhadogitdodev-vdt@github.com/dev-vdt/logs\r ```",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "typescript": "^3.5.2"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "way-logs",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "version": "0.0.0"
+}
